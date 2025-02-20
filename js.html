@@ -11,6 +11,11 @@
             font-size: 15px;
             font-weight: 999;
         }
+
+       body
+       {
+         background-image: linear-gradient(to (left pink, blue));
+       }
     </style>
 <title>notes</title>
 </head>
@@ -20,27 +25,12 @@
 
 </html>
     <script>
-        console.log("Hello, world!");
-        console.log("Nghia "+" Duc "+" Tran ")
+        var notes = "type here";
+        console.log (notes);
+        console.log(typeof notes);
 
-        var fun = 3;
-        fun = fun+3;
-        console.log(fun);
+        let notetype = "notes web app";
+        let words = "strings";
 
-
-        let steps = 100;
-        console.log(steps); // -> 100 (what the variable is originally declared as)
-        steps = 120; // -> 120 (what it was changed to)
-        console.log(steps);
-        steps = steps + 200; 
-        console.log(steps); // -> 320 (adding a value to the variable with math)
-
-
-        let height = 6;
-        {
-            let weight = 3;
-            console.log(height);
-            console.log(weight);
-        }
-        console.log(weight);
+         console.log("Note type: " + notetype + ", Words: " + words);
     </script>
